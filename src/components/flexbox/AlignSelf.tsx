@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {StyleSheet, View} from 'react-native';
 import type {FlexAlignType} from 'react-native';

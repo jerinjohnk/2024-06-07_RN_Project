@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import {StyleSheet, View} from 'react-native';
 import React, {useState} from 'react';
 import PreviewLayout from './PreviewLayout';

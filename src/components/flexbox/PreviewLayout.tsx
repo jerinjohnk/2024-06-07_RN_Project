@@ -1,12 +1,5 @@
-/* eslint-disable react-native/no-inline-styles */
 import React, {PropsWithChildren, useState} from 'react';
-import {
-  View,
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-  FlexStyle,
-} from 'react-native';
+import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 
 type PreviewLayoutProps = PropsWithChildren<{
   label: string;
