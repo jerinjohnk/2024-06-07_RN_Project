@@ -17,10 +17,18 @@ import {SafeAreaView} from 'react-native';
 // import SwitchDemo from './src/components/userInterface/SwitchDemo';
 
 import APIDemo from './src/APIDemo';
+import FlexDemo from './src/components/flexbox/FlexDemo';
+import JustifyContentBasics from './src/components/flexbox/JustifyContentBasics';
+import FlexDirectionBasics from './src/components/flexbox/FlexDirectionBasics';
+import AlignItems from './src/components/flexbox/AlignItems';
+import AlignSelf from './src/components/flexbox/AlignSelf';
+import FlexWrap from './src/components/flexbox/FlexWrap';
+import FlexShrinkBasisAndGrow from './src/components/flexbox/FlexShrinkBasisAndGrow';
+import PositionLayout from './src/components/flexbox/PostionLayout';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
       {/* <Demo1 /> */}
       {/* <ViewDemo /> */}
       {/* <TextDemo /> */}
@@ -33,6 +41,23 @@ function App(): React.JSX.Element {
       {/* <SwitchDemo /> */}
 
       <APIDemo />
+
+      {/* ======================Flexbox====================== */}
+      {/* <FlexDemo /> */}
+
+      {/* <FlexDirectionBasics /> */}
+
+      {/* <JustifyContentBasics /> */}
+
+      {/* <AlignItems /> */}
+
+      {/* <AlignSelf /> */}
+
+      {/* <FlexWrap /> */}
+
+      {/* <FlexShrinkBasisAndGrow /> */}
+
+      {/* <PositionLayout /> */}
     </SafeAreaView>
   );
 }
