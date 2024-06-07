@@ -3,10 +3,17 @@ import {Button} from 'react-native';
 
 export default function StatesDemo() {
   const [count, setCount] = useState(0);
+  // const [something,setSomething] = useState(initialState)
 
   useEffect(() => {
+    // The code we want to run
     console.log(count);
-  }, [count]);
+
+    //Optional return function
+    // return () => {
+    //   console.log('I am being cleaned up');
+    // };
+  }, [count]); // The dependency array
 
   return (
     <Button
